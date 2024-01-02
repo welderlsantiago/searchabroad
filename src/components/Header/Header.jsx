@@ -1,9 +1,10 @@
 import './Header.css'
-import { ReactComponent as Logo} from '../../images/Vector.svg'
+import PageLogo from '../PageLogo/PageLogo'
 
 function Header () {
     return (
         <header className='header'>
+            <PageLogo />
             <div className='companyDescriptionPhrases'>
                 <span id='companyName'>SearchAbroad</span>
                 <span id='companyPhrase'>Quote and find all you need.</span>
