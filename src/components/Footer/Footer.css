@@ -1,4 +1,6 @@
-footer {
-    width: 100%;
+.footer {
+    display: flex;
+    justify-content: center;
     background: #EC7B14;
+    color: #f4f4f4;
 }
