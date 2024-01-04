@@ -1,0 +1,33 @@
+.quotation-form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.quotation-form input {
+    width: 100%;
+    padding-block: 1rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #CFCFCF;
+    color: #f4f4f4;
+    font-size: 1.2rem;
+}
+
+#description {
+    height: 7rem;
+    color: #f4f4f4;
+}
+
+#submit-button {
+    width: 40%;
+    border: none;
+    border-radius: 8px;
+    background-color: #EC7B14;
+    color: #f4f4f4;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
