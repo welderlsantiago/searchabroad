@@ -1,9 +1,9 @@
 import Form from '../Form/Form';
-import './Section.css'
+import './QuotationSection.css'
 
-function Section () {
+function QuotationSection () {
     return (
-        <section className="section">
+        <section className="quotation-section">
             <h1>Need to request a quotation? We’ve got you covered!</h1>
             <p>
                 Please, provide your information below and one of our specialized
@@ -14,4 +14,4 @@ function Section () {
     )
 }
 
-export default Section;
+export default QuotationSection;
